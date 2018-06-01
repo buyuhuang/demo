@@ -11,7 +11,7 @@
 ### 2018/6/1
 
 * TODO:
-1. [ ] Introduction
+1. Introduction
 1. Research Structure
 1. Basic Codes Using Twitter API
 

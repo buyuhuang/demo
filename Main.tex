@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper ,twoside ,openany]{book}
+\documentclass[11pt,a4paper ,oneside ,openany]{book}
 % with chapter titles always on the right hand page
 % Formatting rules for theses are here: http://www.ucl.ac.uk/current-students/research_degrees/thesis_formatting
 
@@ -71,10 +71,30 @@
 
 \mainmatter
 \include{Introduction}
-\include{Chapter2}
-\include{Chapter3}
-\include{Conclusions}
-\include{Appendices} 
+
+\chapter{Literature Review}
+\label{chapter2}
+\input{Chapter2.tex}
+
+\chapter{Methodology}
+\label{chapter3}
+\input{Chapter3.tex}
+
+\chapter{Analysis and Results}
+\label{chapter4}
+\input{Chapter4.tex}
+
+\chapter{Discussion}
+\label{chapter5}
+\input{Chapter5.tex}
+
+\chapter{Conclusions}
+\label{conclusions}
+\input{Conclusions.tex}
+
+\chapter{Appendices}
+\label{appendices}
+\input{Appendices.tex} 
 
 \backmatter
 \clearpage

@@ -32,3 +32,6 @@
   * Articles:
     * [ ] [Computing with Spatial Trajectories](https://www.microsoft.com/en-us/research/wp-content/uploads/2011/11/TrajectoryComputing_Preview.pdf) `-> Trajectory Data`
     * [ ] [Trajectory Data Mining: An Overview](http://delivery.acm.org/10.1145/2750000/2743025/a29-zheng.pdf?ip=144.82.115.40&id=2743025&acc=ACTIVE%20SERVICE&key=BF07A2EE685417C5%2ED93309013A15C57B%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1528088154_72688ed872c009cd50b9bda55be343b5) `-> Trajectory Data`
+  * Tutorials:
+    * [ ] [Twitter API tutorial](http://socialmedia-class.org/twittertutorial.html) `-> Twitter API`
+

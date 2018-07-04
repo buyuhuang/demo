@@ -72,6 +72,9 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+.idea/
+.idea
+
 # pyenv
 .python-version
 
@@ -202,3 +205,8 @@ sympy-plots-for-*.tex/
 
 # xindy
 *.xdy
+
+# file
+geoparsepy_py3
+*.tar
+twitter oath.txt

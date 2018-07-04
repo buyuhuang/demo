@@ -35,6 +35,12 @@
         - [Tweepy](#tweepy)
 - [2018-6-14](#2018-6-14)
     - [TODO](#todo-4)
+- [2018-6-26](#2018-6-26)
+    - [TODO](#todo-5)
+- [2018-07-04](#2018-07-04)
+    - [ogr2ogr](#ogr2ogr)
+    - [geoparsepy](#geoparsepy)
+    - [TODO](#todo-6)
 
 <!-- /TOC -->
 
@@ -228,6 +234,8 @@
 
 `-> Geolocated Tweets`
 
+<https://www.ucl.ac.uk/spacetimelab/docs/SpaceTimeLabLeafletMay2016>
+
 There are 24 million journeys made across London’s
 transportation network per day. By profiling people
 and the places they visit, SpaceTimeLab gains insights into needs, allowing businesses to target their advertising in the right places.
@@ -262,3 +270,32 @@ Twitter Data Mining: A Guide to Big Data Analytics Using Python
 ### TODO
 
 - [ ] Twitter API 抓取！
+- [ ] Coursework Codes upload
+
+## 2018-6-26
+
+### TODO
+
+- [ ] Twitter API
+
+## 2018-07-04
+
+### ogr2ogr
+
+convert shp file to csv etc.
+
+eg. `ogr2ogr -f "CSV" gis.osm_pois_free_1.csv gis.osm_pois_free_1.shp -lco GEOMETRY=AS_XY`
+
+### geoparsepy
+
+convert it from python 2 to python 3 using 2to3.script
+
+[differences between python 2 and 3](https://www.zhihu.com/question/19698598)
+
+[future package: Easy, clean, reliable Python 2/3 compatibility](http://python-future.org/compatible_idioms.html#strings-and-bytes)
+
+### TODO
+
+- [ ] type: str, byte...; encode, decode
+
+- [ ] package: nlpk, [book](https://www.nltk.org/book/)

@@ -41,6 +41,8 @@
     - [ogr2ogr](#ogr2ogr)
     - [geoparsepy](#geoparsepy)
     - [TODO](#todo-6)
+- [2018-07-07](#2018-07-07)
+    - [Pragmatic Unicode](#pragmatic-unicode)
 
 <!-- /TOC -->
 
@@ -57,7 +59,7 @@
 
 - [ ] Introduction
 - [ ] Research Structure
-- [ ] Basic Codes Using Twitter API
+- [x] Basic Codes Using Twitter API
 
 ### Related Research
   
@@ -83,11 +85,11 @@
 #### Articles
 
 - [ ] [Computing with Spatial Trajectories](https://www.microsoft.com/en-us/research/wp-content/uploads/2011/11/TrajectoryComputing_Preview.pdf) `-> Trajectory Data`
-- [ ] [Trajectory Data Mining: An Overview](http://delivery.acm.org/10.1145/2750000/2743025/a29-zheng.pdf?ip=144.82.115.40&id=2743025&acc=ACTIVE%20SERVICE&key=BF07A2EE685417C5%2ED93309013A15C57B%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1528088154_72688ed872c009cd50b9bda55be343b5) `-> Trajectory Data`
+- [x] [Trajectory Data Mining: An Overview](http://delivery.acm.org/10.1145/2750000/2743025/a29-zheng.pdf?ip=144.82.115.40&id=2743025&acc=ACTIVE%20SERVICE&key=BF07A2EE685417C5%2ED93309013A15C57B%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1528088154_72688ed872c009cd50b9bda55be343b5) `-> Trajectory Data`
 
 #### Tutorials
 
-- [ ] [Twitter API tutorial](http://socialmedia-class.org/twittertutorial.html) `-> Twitter API`
+- [x] [Twitter API tutorial](http://socialmedia-class.org/twittertutorial.html) `-> Twitter API`
 
 ## 2018-6-5
 
@@ -95,7 +97,7 @@
 
 - [ ] Using Travel Data (TfL) to find POIs
 - [ ] Clip London PoIs of OpenStreetMap
-- [ ] Sentiment Analysis of Twitter Data Related PoIs
+- [x] Sentiment Analysis of Twitter Data Related PoIs
 - [x] Glance on geoparsepy python package
 
 #### Problems
@@ -148,7 +150,6 @@
 
 <https://developer.twitter.com/en/docs.html>
 
-
 #### TfL Open Data
 
 <https://tfl.gov.uk/info-for/open-data-users/our-open-data>
@@ -156,46 +157,6 @@
 <https://blog.tfl.gov.uk/>
 
 - [API](https://api.tfl.gov.uk/)
-  - Stop Points
-    - "CarPickupSetDownArea",
-    - "NaptanAirAccessArea",
-    - "NaptanAirEntrance",
-    - "NaptanAirportBuilding",
-    - "NaptanBusCoachStation",
-    - "NaptanBusWayPoint",
-    - "NaptanCoachAccessArea",
-    - "NaptanCoachBay",
-    - "NaptanCoachEntrance",
-    - "NaptanCoachServiceCoverage",
-    - "NaptanCoachVariableBay",
-    - "NaptanFerryAccessArea",
-    - "NaptanFerryBerth",
-    - "NaptanFerryEntrance",
-    - "NaptanFerryPort",
-    - "NaptanFlexibleZone",
-    - "NaptanHailAndRideSection",
-    - "NaptanLiftCableCarAccessArea",
-    - "NaptanLiftCableCarEntrance",
-    - "NaptanLiftCableCarStop",
-    - "NaptanLiftCableCarStopArea",
-    - "NaptanMarkedPoint",
-    - "NaptanMetroAccessArea",
-    - "NaptanMetroEntrance",
-    - "NaptanMetroPlatform",
-    - "NaptanMetroStation",
-    - "NaptanOnstreetBusCoachStopCluster",
-    - "NaptanOnstreetBusCoachStopPair",
-    - "NaptanPrivateBusCoachTram",
-    - "NaptanPublicBusCoachTram",
-    - "NaptanRailAccessArea",
-    - "NaptanRailEntrance",
-    - "NaptanRailPlatform",
-    - "NaptanRailStation",
-    - "NaptanSharedTaxi",
-    - "NaptanTaxiRank",
-    - "NaptanUnmarkedPoint",
-    - "TransportInterchange"
-  - NaptanToNlcMappings.json
 
 - [Road Data](http://roads.data.tfl.gov.uk/)
   - Levels of traffic flow and delay  (17/12/2017-16/03/2018, Congestion SCOOT 15 minutes)  
@@ -269,14 +230,14 @@ Twitter Data Mining: A Guide to Big Data Analytics Using Python
 
 ### TODO
 
-- [ ] Twitter API 抓取！
+- [x] Twitter API 抓取！
 - [ ] Coursework Codes upload
 
 ## 2018-6-26
 
 ### TODO
 
-- [ ] Twitter API
+- [x] Twitter API
 
 ## 2018-07-04
 
@@ -296,6 +257,12 @@ convert it from python 2 to python 3 using 2to3.script
 
 ### TODO
 
-- [ ] type: str, byte...; encode, decode
+- [x] [type: str, byte...; encode, decode](https://nedbatchelder.com/text/unipain.html)
 
-- [ ] package: nlpk, [book](https://www.nltk.org/book/)
+- [x] package: nlpk, [book](https://www.nltk.org/book/)
+
+## 2018-07-07
+
+### Pragmatic Unicode
+
+[Unicode 是什么？](https://nedbatchelder.com/text/unipain.html)
